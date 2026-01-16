@@ -1,0 +1,41 @@
+/* =====================================
+   GALERI PROYEK - HORIZONTAL MOBILE
+===================================== */
+
+/* =========================
+   MOBILE ONLY
+========================= */
+@media (max-width: 768px) {
+
+    /* Container item portfolio */
+    .cbp {
+        display: flex !important;
+        flex-wrap: nowrap !important;
+        overflow-x: auto;
+        overflow-y: hidden;
+        gap: 16px;
+        padding-bottom: 15px;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    /* Item portfolio */
+    .cbp-item {
+        flex: 0 0 260px; /* lebar kartu */
+        max-width: 260px;
+        scroll-snap-align: start;
+    }
+
+    /* Hilangkan scrollbar (opsional) */
+    .cbp::-webkit-scrollbar {
+        display: none;
+    }
+
+    /* Pastikan gambar rapi */
+    .cbp-caption,
+    .cbp-caption-defaultWrap img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+}

@@ -17,23 +17,31 @@
     <!-- Web Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i|Montserrat:400,700" rel="stylesheet">
 
-    <!-- Vendor Styles -->
-    <link href="{{ asset('vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet" type="text/css" />
-    <link href="{{ asset('css/animate.css') }}" rel="stylesheet" type="text/css" />
-    <link href="{{ asset('vendor/themify/themify.css') }}" rel="stylesheet" type="text/css" />
-    <link href="{{ asset('vendor/scrollbar/scrollbar.min.css') }}" rel="stylesheet" type="text/css" />
-    <link href="{{ asset('vendor/magnific-popup/magnific-popup.css') }}" rel="stylesheet" type="text/css" />
-    <link href="{{ asset('vendor/swiper/swiper.min.css') }}" rel="stylesheet" type="text/css" />
-    <link href="{{ asset('vendor/cubeportfolio/css/cubeportfolio.min.css') }}" rel="stylesheet" type="text/css" />
+    <!-- ================= Vendor CSS ================= -->
+    <link href="{{ asset('vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/animate.css') }}" rel="stylesheet">
+    <link href="{{ asset('vendor/themify/themify.css') }}" rel="stylesheet">
+    <link href="{{ asset('vendor/scrollbar/scrollbar.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('vendor/magnific-popup/magnific-popup.css') }}" rel="stylesheet">
+    <link href="{{ asset('vendor/swiper/swiper.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('vendor/cubeportfolio/css/cubeportfolio.min.css') }}" rel="stylesheet">
 
-    <!-- Theme Styles -->
-    <link href="{{ asset('css/style.css') }}" rel="stylesheet" type="text/css" />
-    <link href="{{ asset('css/global/global.css') }}" rel="stylesheet" type="text/css" />
+    <!-- ================= Theme CSS ================= -->
+    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/global/global.css') }}" rel="stylesheet">
+
+    <!-- ================= Leaflet CSS ================= -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
+    <!-- ================= Custom Override CSS ================= -->
+    <link href="{{ asset('css/custom-header.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="{{ asset('css/portfolio-responsive.css') }}">
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="{{ asset('img/favicon.ico') }}" type="image/x-icon">
     <link rel="apple-touch-icon" href="{{ asset('img/apple-touch-icon.png') }}">
 </head>
+
 
 <!-- End Head -->
 
@@ -48,127 +56,135 @@
             <div class="s-header__container">
                 <div class="s-header__navbar-row">
                     <div class="s-header__navbar-row-col">
+
                         <!-- Logo -->
                         <div class="s-header__logo">
-                            <a href="index.html" class="s-header__logo-link">
-                                <img class="s-header__logo-img s-header__logo-img-default" src="img/logo.png"
-                                    alt="Megakit Logo">
-                                <img class="s-header__logo-img s-header__logo-img-shrink" src="img/logo-dark.png"
-                                    alt="Megakit Logo">
+                            <a href="#home" class="s-header__logo-link">
+                                <span class="logo-text">
+                                    <span class="logo-pt">PT</span>
+                                    <span class="logo-sip"> SIP</span>
+                                </span>
                             </a>
                         </div>
+
                         <!-- End Logo -->
+
                     </div>
+
                     <div class="s-header__navbar-row-col">
                         <!-- Trigger -->
                         <a href="javascript:void(0);" class="s-header__trigger js__trigger">
                             <span class="s-header__trigger-icon"></span>
-                            <svg x="0rem" y="0rem" width="3.125rem" height="3.125rem" viewbox="0 0 54 54">
+                            <svg x="0rem" y="0rem" width="3.125rem" height="3.125rem" viewBox="0 0 54 54">
                                 <circle fill="transparent" stroke="#fff" stroke-width="1" cx="27" cy="27"
                                     r="25" stroke-dasharray="157 157" stroke-dashoffset="157"></circle>
                             </svg>
                         </a>
                         <!-- End Trigger -->
                     </div>
+
                 </div>
             </div>
         </div>
         <!-- End Navbar -->
+    </header>
+    <!--========== END HEADER ==========-->
 
-        <!-- Overlay -->
-        <div class="s-header-bg-overlay js__bg-overlay">
-            <!-- Nav -->
-            <nav class="s-header__nav js__scrollbar">
-                <div class="container-fluid">
-                    <!-- Menu List -->
-                    <ul class="list-unstyled s-header__nav-menu">
-                        <li class="s-header__nav-menu-item"><a
-                                class="s-header__nav-menu-link s-header__nav-menu-link-divider -is-active"
-                                href="index.html">Corporate</a></li>
-                        <li class="s-header__nav-menu-item"><a
-                                class="s-header__nav-menu-link s-header__nav-menu-link-divider"
-                                href="index_app_landing.html">App Landing</a></li>
-                        <li class="s-header__nav-menu-item"><a
-                                class="s-header__nav-menu-link s-header__nav-menu-link-divider"
-                                href="index_portfolio.html">Portfolio</a></li>
-                        <li class="s-header__nav-menu-item"><a
-                                class="s-header__nav-menu-link s-header__nav-menu-link-divider"
-                                href="index_events.html">Events</a></li>
-                        <li class="s-header__nav-menu-item"><a
-                                class="s-header__nav-menu-link s-header__nav-menu-link-divider"
-                                href="index_lawyer.html">Lawyer</a></li>
-                        <li class="s-header__nav-menu-item"><a
-                                class="s-header__nav-menu-link s-header__nav-menu-link-divider"
-                                href="index_clinic.html">Clinic</a></li>
-                        <li class="s-header__nav-menu-item"><a
-                                class="s-header__nav-menu-link s-header__nav-menu-link-divider"
-                                href="index_coming_soon.html">Coming Soon</a></li>
-                    </ul>
-                    <!-- End Menu List -->
 
-                    <!-- Menu List -->
-                    <ul class="list-unstyled s-header__nav-menu">
-                        <li class="s-header__nav-menu-item"><a
-                                class="s-header__nav-menu-link s-header__nav-menu-link-divider"
-                                href="about.html">About</a></li>
-                        <li class="s-header__nav-menu-item"><a
-                                class="s-header__nav-menu-link s-header__nav-menu-link-divider"
-                                href="team.html">Team</a></li>
-                        <li class="s-header__nav-menu-item"><a
-                                class="s-header__nav-menu-link s-header__nav-menu-link-divider"
-                                href="services.html">Services</a></li>
-                        <li class="s-header__nav-menu-item"><a
-                                class="s-header__nav-menu-link s-header__nav-menu-link-divider"
-                                href="events.html">Events</a></li>
-                        <li class="s-header__nav-menu-item"><a
-                                class="s-header__nav-menu-link s-header__nav-menu-link-divider"
-                                href="faq.html">FAQ</a></li>
-                        <li class="s-header__nav-menu-item"><a
-                                class="s-header__nav-menu-link s-header__nav-menu-link-divider"
-                                href="contacts.html">Contacts</a></li>
-                    </ul>
-                    <!-- End Menu List -->
-                </div>
-            </nav>
-            <!-- End Nav -->
+    <!-- Overlay -->
+    <div class="s-header-bg-overlay js__bg-overlay">
+        <!-- Nav -->
+        <nav class="s-header__nav js__scrollbar">
+            <div class="container-fluid">
+                <!-- Menu List -->
+                <ul class="list-unstyled s-header__nav-menu">
+                    <li class="s-header__nav-menu-item"><a
+                            class="s-header__nav-menu-link s-header__nav-menu-link-divider -is-active"
+                            href="index.html">Corporate</a></li>
+                    <li class="s-header__nav-menu-item"><a
+                            class="s-header__nav-menu-link s-header__nav-menu-link-divider"
+                            href="index_app_landing.html">App Landing</a></li>
+                    <li class="s-header__nav-menu-item"><a
+                            class="s-header__nav-menu-link s-header__nav-menu-link-divider"
+                            href="index_portfolio.html">Portfolio</a></li>
+                    <li class="s-header__nav-menu-item"><a
+                            class="s-header__nav-menu-link s-header__nav-menu-link-divider"
+                            href="index_events.html">Events</a></li>
+                    <li class="s-header__nav-menu-item"><a
+                            class="s-header__nav-menu-link s-header__nav-menu-link-divider"
+                            href="index_lawyer.html">Lawyer</a></li>
+                    <li class="s-header__nav-menu-item"><a
+                            class="s-header__nav-menu-link s-header__nav-menu-link-divider"
+                            href="index_clinic.html">Clinic</a></li>
+                    <li class="s-header__nav-menu-item"><a
+                            class="s-header__nav-menu-link s-header__nav-menu-link-divider"
+                            href="index_coming_soon.html">Coming Soon</a></li>
+                </ul>
+                <!-- End Menu List -->
 
-            <!-- Action -->
-            <ul class="list-inline s-header__action s-header__action--lb">
-                <li class="s-header__action-item"><a class="s-header__action-link -is-active" href="#">En</a>
-                </li>
-                <li class="s-header__action-item"><a class="s-header__action-link" href="#">Fr</a></li>
-            </ul>
-            <!-- End Action -->
+                <!-- Menu List -->
+                <ul class="list-unstyled s-header__nav-menu">
+                    <li class="s-header__nav-menu-item"><a
+                            class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="about.html">About</a>
+                    </li>
+                    <li class="s-header__nav-menu-item"><a
+                            class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="team.html">Team</a>
+                    </li>
+                    <li class="s-header__nav-menu-item"><a
+                            class="s-header__nav-menu-link s-header__nav-menu-link-divider"
+                            href="services.html">Services</a></li>
+                    <li class="s-header__nav-menu-item"><a
+                            class="s-header__nav-menu-link s-header__nav-menu-link-divider"
+                            href="events.html">Events</a></li>
+                    <li class="s-header__nav-menu-item"><a
+                            class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="faq.html">FAQ</a>
+                    </li>
+                    <li class="s-header__nav-menu-item"><a
+                            class="s-header__nav-menu-link s-header__nav-menu-link-divider"
+                            href="contacts.html">Contacts</a></li>
+                </ul>
+                <!-- End Menu List -->
+            </div>
+        </nav>
+        <!-- End Nav -->
 
-            <!-- Action -->
-            <ul class="list-inline s-header__action s-header__action--rb">
-                <li class="s-header__action-item">
-                    <a class="s-header__action-link" href="#">
-                        <i class="g-padding-r-5--xs ti-facebook"></i>
-                        <span class="g-display-none--xs g-display-inline-block--sm">Facebook</span>
-                    </a>
-                </li>
-                <li class="s-header__action-item">
-                    <a class="s-header__action-link" href="#">
-                        <i class="g-padding-r-5--xs ti-twitter"></i>
-                        <span class="g-display-none--xs g-display-inline-block--sm">Twitter</span>
-                    </a>
-                </li>
-                <li class="s-header__action-item">
-                    <a class="s-header__action-link" href="#">
-                        <i class="g-padding-r-5--xs ti-instagram"></i>
-                        <span class="g-display-none--xs g-display-inline-block--sm">Instagram</span>
-                    </a>
-                </li>
-            </ul>
-            <!-- End Action -->
-        </div>
-        <!-- End Overlay -->
+        <!-- Action -->
+        <ul class="list-inline s-header__action s-header__action--lb">
+            <li class="s-header__action-item"><a class="s-header__action-link -is-active" href="#">En</a>
+            </li>
+            <li class="s-header__action-item"><a class="s-header__action-link" href="#">Fr</a></li>
+        </ul>
+        <!-- End Action -->
+
+        <!-- Action -->
+        <ul class="list-inline s-header__action s-header__action--rb">
+            <li class="s-header__action-item">
+                <a class="s-header__action-link" href="#">
+                    <i class="g-padding-r-5--xs ti-facebook"></i>
+                    <span class="g-display-none--xs g-display-inline-block--sm">Facebook</span>
+                </a>
+            </li>
+            <li class="s-header__action-item">
+                <a class="s-header__action-link" href="#">
+                    <i class="g-padding-r-5--xs ti-twitter"></i>
+                    <span class="g-display-none--xs g-display-inline-block--sm">Twitter</span>
+                </a>
+            </li>
+            <li class="s-header__action-item">
+                <a class="s-header__action-link" href="#">
+                    <i class="g-padding-r-5--xs ti-instagram"></i>
+                    <span class="g-display-none--xs g-display-inline-block--sm">Instagram</span>
+                </a>
+            </li>
+        </ul>
+        <!-- End Action -->
+    </div>
+    <!-- End Overlay -->
     </header>
     <!--========== END HEADER ==========-->
 
     <!--========== SWIPER SLIDER ==========-->
-    <div class="s-swiper js__swiper-one-item">
+    <div class="s-swiper js__swiper-one-item" id="home">
         <!-- Swiper Wrapper -->
         <div class="swiper-wrapper">
 
@@ -563,7 +579,7 @@
     <!--========== END GALERI PROYEK ==========-->
 
 
-    <!-- Testimonials -->
+    {{-- <!-- Testimonials -->
     <div class="js__parallax-window" style="background: url(img/1920x1080/04.jpg) 50% 0 no-repeat fixed;">
         <div class="container g-text-center--xs g-padding-y-80--xs g-padding-y-125--sm">
             <p
@@ -630,7 +646,7 @@
             </div>
         </div>
     </div>
-    <!-- End Testimonials -->
+    <!-- End Testimonials --> --}}
 
     <!-- Clients -->
     <div class="g-bg-color--sky-light">
@@ -883,113 +899,106 @@
     <!--========== END CONTACT ==========-->
 
 
-    <!-- Google Map -->
+    <!-- Leaflet Map -->
     <section class="s-google-map">
-        <div id="js__google-container" class="s-google-container g-height-400--xs"></div>
+        <div id="leaflet-map" class="s-google-container g-height-400--xs"></div>
     </section>
-    <!-- End Google Map -->
+    <!-- End Leaflet Map -->
+
     <!--========== END PAGE CONTENT ==========-->
 
-    <!--========== FOOTER ==========-->
-    <footer class="g-bg-color--dark">
-        <!-- Links -->
-        <div class="g-hor-divider__dashed--white-opacity-lightest">
-            <div class="container g-padding-y-80--xs">
-                <div class="row">
-                    <div class="col-sm-2 g-margin-b-20--xs g-margin-b-0--md">
-                        <ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-0--xs">
-                            <li><a class="g-font-size-15--xs g-color--white-opacity"
-                                    href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Home</a>
-                            </li>
-                            <li><a class="g-font-size-15--xs g-color--white-opacity"
-                                    href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">About</a>
-                            </li>
-                            <li><a class="g-font-size-15--xs g-color--white-opacity"
-                                    href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Work</a>
-                            </li>
-                            <li><a class="g-font-size-15--xs g-color--white-opacity"
-                                    href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-2 g-margin-b-20--xs g-margin-b-0--md">
-                        <ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-0--xs">
-                            <li><a class="g-font-size-15--xs g-color--white-opacity"
-                                    href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Twitter</a>
-                            </li>
-                            <li><a class="g-font-size-15--xs g-color--white-opacity"
-                                    href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Facebook</a>
-                            </li>
-                            <li><a class="g-font-size-15--xs g-color--white-opacity"
-                                    href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Instagram</a>
-                            </li>
-                            <li><a class="g-font-size-15--xs g-color--white-opacity"
-                                    href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">YouTube</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-2 g-margin-b-40--xs g-margin-b-0--md">
-                        <ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-0--xs">
-                            <li><a class="g-font-size-15--xs g-color--white-opacity"
-                                    href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Subscribe
-                                    to Our Newsletter</a></li>
-                            <li><a class="g-font-size-15--xs g-color--white-opacity"
-                                    href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Privacy
-                                    Policy</a></li>
-                            <li><a class="g-font-size-15--xs g-color--white-opacity"
-                                    href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Terms
-                                    &amp; Conditions</a></li>
-                        </ul>
-                    </div>
-                    <div
-                        class="col-md-4 col-md-offset-2 col-sm-5 col-sm-offset-1 s-footer__logo g-padding-y-50--xs g-padding-y-0--md">
-                        <h3 class="g-font-size-18--xs g-color--white">Megakit</h3>
-                        <p class="g-color--white-opacity">We are a creative studio focusing on culture, luxury,
-                            editorial &amp; art. Somewhere between sophistication and simplicity.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End Links -->
-
-        <!-- Copyright -->
-        <div class="container g-padding-y-50--xs">
+   <!--========== FOOTER ==========-->
+<footer class="g-bg-color--dark">
+    <!-- Links -->
+    <div class="g-hor-divider__dashed--white-opacity-lightest">
+        <div class="container g-padding-y-80--xs">
             <div class="row">
-                <div class="col-lg-4 col-md-4 col-xs-12">
-                    <a href="index.html">
-                        <img class="g-width-100--xs g-height-auto--xs" src="img/logo.png" alt="Megakit Logo">
-                    </a>
+
+                <!-- Navigasi -->
+                <div class="col-sm-3 col-xs-12 g-margin-b-30--xs">
+                    <h4 class="g-font-size-16--xs g-color--white g-margin-b-20--xs">
+                        Navigasi
+                    </h4>
+                    <ul class="list-unstyled g-ul-li-tb-5--xs">
+                        <li><a href="#home" class="g-color--white-opacity">Home</a></li>
+                        <li><a href="#about" class="g-color--white-opacity">Tentang Kami</a></li>
+                        <li><a href="#projects" class="g-color--white-opacity">Proyek</a></li>
+                        <li><a href="#contact" class="g-color--white-opacity">Kontak</a></li>
+                    </ul>
                 </div>
 
-                <div class="col-lg-4 col-md-4 col-xs-12 g-text-left--xs">
-                    <p class="g-font-size-14--xs g-margin-b-0--xs g-color--white-opacity-light"><a
-                            href="http://keenthemes.com/preview/Megakit/">Megakit</a> Theme Powered by: <a
-                            href="http://www.keenthemes.com/">KeenThemes.com</a></p>
+                <!-- Layanan -->
+                <div class="col-sm-3 col-xs-12 g-margin-b-30--xs">
+                    <h4 class="g-font-size-16--xs g-color--white g-margin-b-20--xs">
+                        Layanan
+                    </h4>
+                    <ul class="list-unstyled g-ul-li-tb-5--xs">
+                        <li class="g-color--white-opacity">Instalasi Elektrikal</li>
+                        <li class="g-color--white-opacity">Konstruksi</li>
+                        <li class="g-color--white-opacity">Maintenance</li>
+                    </ul>
                 </div>
 
-
-                <div class="col-lg-4 col-md-4 col-xs-12 g-text-left--xs">
-                    <p class="g-font-size-14--xs g-margin-b-0--xs g-color--white-opacity-light"><a
-                            href="http://keenthemes.com/preview/Megakit/">Megakit</a> Theme Distributed by: <a
-                            href="https://themewagon.com/">themewagon.com</a></p>
-
+                <!-- Kontak -->
+                <div class="col-sm-3 col-xs-12 g-margin-b-30--xs">
+                    <h4 class="g-font-size-16--xs g-color--white g-margin-b-20--xs">
+                        Kontak
+                    </h4>
+                    <ul class="list-unstyled g-ul-li-tb-5--xs">
+                        <li class="g-color--white-opacity">
+                            Ambon, Maluku
+                        </li>
+                        <li class="g-color--white-opacity">
+                            info@ptseramindopratama.co.id
+                        </li>
+                        <li class="g-color--white-opacity">
+                            +62 xxx xxxx xxxx
+                        </li>
+                    </ul>
                 </div>
+
+                <!-- Profil Perusahaan -->
+                <div class="col-sm-3 col-xs-12">
+                    <h4 class="g-font-size-16--xs g-color--white g-margin-b-20--xs">
+                        PT. Seram Indo Pratama
+                    </h4>
+                    <p class="g-color--white-opacity g-font-size-14--xs">
+                        Perusahaan yang bergerak di bidang konstruksi dan instalasi elektrikal
+                        dengan komitmen pada kualitas, keselamatan, dan ketepatan waktu.
+                    </p>
+                </div>
+
             </div>
         </div>
-        <!-- End Copyright -->
-    </footer>
-    <!--========== END FOOTER ==========-->
+    </div>
+    <!-- End Links -->
+
+    <!-- Copyright -->
+    <div class="container g-padding-y-30--xs">
+        <div class="row g-text-center--xs">
+
+            <div class="col-xs-12">
+                <p class="g-font-size-14--xs g-color--white-opacity-light g-margin-b-0--xs">
+                    © 2025 PT. Seram Indo Pratama. All rights reserved.
+                </p>
+            </div>
+
+        </div>
+    </div>
+    <!-- End Copyright -->
+</footer>
+<!--========== END FOOTER ==========-->
+
 
     <!-- Back To Top -->
     <a href="javascript:void(0);" class="s-back-to-top js__back-to-top"></a>
 
-    <!--========== JAVASCRIPTS (Load javascripts at bottom, this will reduce page load time) ==========-->
+    <!--========== JAVASCRIPTS (Load at bottom) ==========-->
 
     <!-- Vendor -->
     <script src="{{ asset('vendor/jquery.min.js') }}"></script>
     <script src="{{ asset('vendor/jquery.migrate.min.js') }}"></script>
     <script src="{{ asset('vendor/bootstrap/js/bootstrap.min.js') }}"></script>
-    <script src="{{ asset('vendor/jquery.smooth-scroll.min.js') }}"></script>
     <script src="{{ asset('vendor/jquery.back-to-top.min.js') }}"></script>
     <script src="{{ asset('vendor/scrollbar/jquery.scrollbar.min.js') }}"></script>
     <script src="{{ asset('vendor/magnific-popup/jquery.magnific-popup.min.js') }}"></script>
@@ -998,13 +1007,12 @@
     <script src="{{ asset('vendor/counterup.min.js') }}"></script>
     <script src="{{ asset('vendor/cubeportfolio/js/jquery.cubeportfolio.min.js') }}"></script>
     <script src="{{ asset('vendor/jquery.parallax.min.js') }}"></script>
-
-    <!-- Google Maps (opsional, bisa dihapus kalau tidak dipakai) -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBsXUGTFS09pLVdsYEE9YrO2y4IAncAO2U"></script>
-
     <script src="{{ asset('vendor/jquery.wow.min.js') }}"></script>
 
-    <!-- General Components and Settings -->
+    <!-- Leaflet JS (MAP GRATIS) -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+    <!-- Theme Core -->
     <script src="{{ asset('js/global.min.js') }}"></script>
     <script src="{{ asset('js/components/header-sticky.min.js') }}"></script>
     <script src="{{ asset('js/components/scrollbar.min.js') }}"></script>
@@ -1013,29 +1021,49 @@
     <script src="{{ asset('js/components/counter.min.js') }}"></script>
     <script src="{{ asset('js/components/portfolio-3-col.min.js') }}"></script>
     <script src="{{ asset('js/components/parallax.min.js') }}"></script>
-    <script src="{{ asset('js/components/google-map.min.js') }}"></script>
     <script src="{{ asset('js/components/wow.min.js') }}"></script>
 
-    <script type="text/javascript">
+    <!-- Smooth Scroll untuk semua anchor -->
+    <script>
         $(document).ready(function() {
-
-            // Smooth scroll untuk semua link dengan #
             $('a[href^="#"]').on('click', function(e) {
-
                 var target = $(this.getAttribute('href'));
-
                 if (target.length) {
                     e.preventDefault();
-
                     $('html, body').stop().animate({
-                        scrollTop: target.offset().top - 70
+                        scrollTop: target.offset().top - 80
                     }, 800, 'swing');
                 }
             });
-
         });
     </script>
+
+    <!-- Leaflet Map Init -->
+    <script>
+        const map = L.map('leaflet-map', {
+            scrollWheelZoom: false
+        }).setView([-6.200000, 106.816666], 13);
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; OpenStreetMap contributors'
+        }).addTo(map);
+
+        L.marker([-6.200000, 106.816666])
+            .addTo(map)
+            .bindPopup('<b>PT SIP</b><br>Kantor Pusat');
+
+        map.on('click', function() {
+            map.scrollWheelZoom.enable();
+        });
+
+        map.on('mouseout', function() {
+            map.scrollWheelZoom.disable();
+        });
+    </script>
+
+
     <!--========== END JAVASCRIPTS ==========-->
+
 </body>
 <!-- End Body -->
 

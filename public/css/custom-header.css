@@ -1,0 +1,33 @@
+/* ================================
+   LOGO DEFAULT (DI HERO / SWIPER)
+================================ */
+
+.logo-text {
+    font-size: 28px; /* BESAR LOGO */
+    line-height: 1;
+}
+
+/* PT selalu biru */
+.logo-pt {
+    color: #00bcd4;
+    font-weight: 700;
+}
+
+/* SIP putih saat di hero */
+.logo-sip {
+    color: #ffffff;
+    font-weight: 700;
+}
+
+/* ================================
+   SAAT HEADER STICKY / SCROLL
+================================ */
+
+.s-header__shrink .logo-sip {
+    color: #000000;
+}
+
+/* PT tetap biru */
+.s-header__shrink .logo-pt {
+    color: #00bcd4;
+}

@@ -168,429 +168,400 @@
     <!--========== END HEADER ==========-->
 
     <!--========== SWIPER SLIDER ==========-->
-<div class="s-swiper js__swiper-one-item">
-    <!-- Swiper Wrapper -->
-    <div class="swiper-wrapper">
+    <div class="s-swiper js__swiper-one-item">
+        <!-- Swiper Wrapper -->
+        <div class="swiper-wrapper">
 
-        <!-- ===== Slide 1 : Company Identity ===== -->
-        <div class="g-fullheight--xs g-bg-position--center swiper-slide"
-            style="background: url('img/1920x1080/02.jpg');">
-            <div class="container g-text-center--xs g-ver-center--xs">
-                <div class="g-margin-b-30--xs">
-                    <h1 class="g-font-size-35--xs g-font-size-45--sm g-font-size-55--md g-color--white">
-                        Solusi Konstruksi Elektrikal<br>
-                        Profesional dan Terpercaya
-                    </h1>
+            <!-- ===== Slide 1 : Company Identity ===== -->
+            <div class="g-fullheight--xs g-bg-position--center swiper-slide"
+                style="background: url('img/1920x1080/02.jpg');">
+                <div class="container g-text-center--xs g-ver-center--xs">
+                    <div class="g-margin-b-30--xs">
+                        <h1 class="g-font-size-35--xs g-font-size-45--sm g-font-size-55--md g-color--white">
+                            Solusi Konstruksi Elektrikal<br>
+                            Profesional dan Terpercaya
+                        </h1>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <!-- ===== Slide 2 : Value & Services ===== -->
-        <div class="g-fullheight--xs g-bg-position--center swiper-slide"
-            style="background: url('img/1920x1080/01.jpg');">
-            <div class="container g-text-center--xs g-ver-center--xs">
-                <div class="g-margin-b-30--xs">
-                    <h2 class="g-font-size-35--xs g-font-size-45--sm g-font-size-55--md g-color--white">
-                        Mitra Andal dalam<br>
-                        Instalasi dan Konstruksi Elektrikal<br>
-                        yang Aman dan Berkualitas
-                    </h2>
-                </div>
-               {{-- <a class="js__popup__youtube"
+            <!-- ===== Slide 2 : Value & Services ===== -->
+            <div class="g-fullheight--xs g-bg-position--center swiper-slide"
+                style="background: url('img/1920x1080/01.jpg');">
+                <div class="container g-text-center--xs g-ver-center--xs">
+                    <div class="g-margin-b-30--xs">
+                        <h2 class="g-font-size-35--xs g-font-size-45--sm g-font-size-55--md g-color--white">
+                            Mitra Andal dalam<br>
+                            Instalasi dan Konstruksi Elektrikal<br>
+                            yang Aman dan Berkualitas
+                        </h2>
+                    </div>
+                    {{-- <a class="js__popup__youtube"
                    href="https://www.youtube.com/watch?v=lcFYdgZKZxY"
                    title="Intro Video">
                     <i class="s-icon s-icon--lg s-icon--white-bg g-radius--circle ti-control-play"></i>
                 </a>  --}}
-            </div>
-        </div>
-
-        <!-- ===== Slide 3 : Vision ===== -->
-        <div class="g-fullheight--xs g-bg-position--center swiper-slide"
-            style="background: url('img/1920x1080/03.jpg');">
-            <div class="container g-text-center--xs g-ver-center--xs">
-                <div class="g-margin-b-30--xs">
-                    <h2 class="g-font-size-35--xs g-font-size-45--sm g-font-size-55--md g-color--white">
-                        Menjadi Perusahaan<br>
-                        Konstruksi Elektrikal<br>
-                        yang Unggul dan Terpercaya
-                    </h2>
                 </div>
             </div>
+
+            <!-- ===== Slide 3 : Vision ===== -->
+            <div class="g-fullheight--xs g-bg-position--center swiper-slide"
+                style="background: url('img/1920x1080/03.jpg');">
+                <div class="container g-text-center--xs g-ver-center--xs">
+                    <div class="g-margin-b-30--xs">
+                        <h2 class="g-font-size-35--xs g-font-size-45--sm g-font-size-55--md g-color--white">
+                            Menjadi Perusahaan<br>
+                            Konstruksi Elektrikal<br>
+                            yang Unggul dan Terpercaya
+                        </h2>
+                    </div>
+                </div>
+            </div>
+
         </div>
+        <!-- End Swiper Wrapper -->
 
-    </div>
-    <!-- End Swiper Wrapper -->
-
-    <!-- Pagination -->
-    <div class="swiper-pagination"></div>
-</div>
-<!--========== END SWIPER SLIDER ==========-->
-
-
-        <!-- Arrows -->
-        <a href="javascript:void(0);"
-            class="s-swiper__arrow-v1--right s-icon s-icon--md s-icon--white-brd g-radius--circle ti-angle-right js__swiper-btn--next"></a>
-        <a href="javascript:void(0);"
-            class="s-swiper__arrow-v1--left s-icon s-icon--md s-icon--white-brd g-radius--circle ti-angle-left js__swiper-btn--prev"></a>
-        <!-- End Arrows -->
-
-        <a href="#about" class="s-scroll-to-section-v1--bc g-margin-b-15--xs">
-            <span class="g-font-size-18--xs g-color--white ti-angle-double-down"></span>
-            <p class="text-uppercase g-color--white g-letter-spacing--3 g-margin-b-0--xs">Learn More</p>
-        </a>
+        <!-- Pagination -->
+        <div class="swiper-pagination"></div>
     </div>
     <!--========== END SWIPER SLIDER ==========-->
 
-  <!--========== COMPANY OVERVIEW ==========-->
-<div id="about" class="container g-padding-y-80--xs g-padding-y-125--sm">
 
-    <!-- Heading -->
-    <div class="g-text-center--xs g-margin-b-80--xs">
-        <p
-            class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-20--xs">
-            Tentang Perusahaan
-        </p>
-        <h2 class="g-font-size-32--xs g-font-size-36--md">
-            PT. Seram Indo Pratama
-        </h2>
-        <p class="g-font-size-18--xs g-color--text g-margin-t-20--xs">
-            Perusahaan yang bergerak di bidang konstruksi dan instalasi elektrikal
-            dengan komitmen terhadap kualitas, keselamatan, dan ketepatan waktu.
-        </p>
+    <!-- Arrows -->
+    <a href="javascript:void(0);"
+        class="s-swiper__arrow-v1--right s-icon s-icon--md s-icon--white-brd g-radius--circle ti-angle-right js__swiper-btn--next"></a>
+    <a href="javascript:void(0);"
+        class="s-swiper__arrow-v1--left s-icon s-icon--md s-icon--white-brd g-radius--circle ti-angle-left js__swiper-btn--prev"></a>
+    <!-- End Arrows -->
+
+    <a href="#about" class="s-scroll-to-section-v1--bc g-margin-b-15--xs">
+        <span class="g-font-size-18--xs g-color--white ti-angle-double-down"></span>
+        <p class="text-uppercase g-color--white g-letter-spacing--3 g-margin-b-0--xs">Lihat Lebih Lanjut</p>
+    </a>
     </div>
+    <!--========== END SWIPER SLIDER ==========-->
 
-    <!-- Core Services -->
-    <div class="row g-margin-b-60--xs g-margin-b-70--md">
+    <!--========== COMPANY OVERVIEW ==========-->
+    <div id="about" class="container g-padding-y-80--xs g-padding-y-125--sm">
 
-        <div class="col-sm-4 g-margin-b-60--xs g-margin-b-0--md">
-            <div class="clearfix">
-                <div class="g-media g-width-30--xs">
-                    <i class="g-font-size-28--xs g-color--primary ti-bolt"></i>
-                </div>
-                <div class="g-media__body g-padding-x-20--xs">
-                    <h3 class="g-font-size-18--xs">Instalasi Elektrikal</h3>
-                    <p class="g-margin-b-0--xs">
-                        Pekerjaan instalasi listrik tegangan rendah dan menengah
-                        untuk bangunan, industri, dan fasilitas umum.
-                    </p>
-                </div>
-            </div>
+        <!-- Heading -->
+        <div class="g-text-center--xs g-margin-b-80--xs">
+            <p
+                class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-20--xs">
+                Tentang Perusahaan
+            </p>
+            <h2 class="g-font-size-32--xs g-font-size-36--md">
+                PT. Seram Indo Pratama
+            </h2>
+            <p class="g-font-size-18--xs g-color--text g-margin-t-20--xs">
+                Perusahaan yang bergerak di bidang konstruksi dan instalasi elektrikal
+                dengan komitmen terhadap kualitas, keselamatan, dan ketepatan waktu.
+            </p>
         </div>
 
-        <div class="col-sm-4 g-margin-b-60--xs g-margin-b-0--md">
-            <div class="clearfix">
-                <div class="g-media g-width-30--xs">
-                    <i class="g-font-size-28--xs g-color--primary ti-settings"></i>
-                </div>
-                <div class="g-media__body g-padding-x-20--xs">
-                    <h3 class="g-font-size-18--xs">Konstruksi & Maintenance</h3>
-                    <p class="g-margin-b-0--xs">
-                        Pelaksanaan konstruksi serta pemeliharaan sistem
-                        elektrikal secara profesional dan berkelanjutan.
-                    </p>
-                </div>
-            </div>
-        </div>
+        <!-- Core Services -->
+        <div class="row g-margin-b-60--xs g-margin-b-70--md">
 
-        <div class="col-sm-4">
-            <div class="clearfix">
-                <div class="g-media g-width-30--xs">
-                    <i class="g-font-size-28--xs g-color--primary ti-shield"></i>
-                </div>
-                <div class="g-media__body g-padding-x-20--xs">
-                    <h3 class="g-font-size-18--xs">Keselamatan & Kualitas</h3>
-                    <p class="g-margin-b-0--xs">
-                        Mengutamakan standar keselamatan kerja serta kualitas
-                        hasil sesuai regulasi dan kebutuhan klien.
-                    </p>
+            <div class="col-sm-4 g-margin-b-60--xs g-margin-b-0--md">
+                <div class="clearfix">
+                    <div class="g-media g-width-30--xs">
+                        <i class="g-font-size-28--xs g-color--primary ti-bolt"></i>
+                    </div>
+                    <div class="g-media__body g-padding-x-20--xs">
+                        <h3 class="g-font-size-18--xs">Instalasi Elektrikal</h3>
+                        <p class="g-margin-b-0--xs">
+                            Pekerjaan instalasi listrik tegangan rendah dan menengah
+                            untuk bangunan, industri, dan fasilitas umum.
+                        </p>
+                    </div>
                 </div>
             </div>
+
+            <div class="col-sm-4 g-margin-b-60--xs g-margin-b-0--md">
+                <div class="clearfix">
+                    <div class="g-media g-width-30--xs">
+                        <i class="g-font-size-28--xs g-color--primary ti-settings"></i>
+                    </div>
+                    <div class="g-media__body g-padding-x-20--xs">
+                        <h3 class="g-font-size-18--xs">Konstruksi & Maintenance</h3>
+                        <p class="g-margin-b-0--xs">
+                            Pelaksanaan konstruksi serta pemeliharaan sistem
+                            elektrikal secara profesional dan berkelanjutan.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="clearfix">
+                    <div class="g-media g-width-30--xs">
+                        <i class="g-font-size-28--xs g-color--primary ti-shield"></i>
+                    </div>
+                    <div class="g-media__body g-padding-x-20--xs">
+                        <h3 class="g-font-size-18--xs">Keselamatan & Kualitas</h3>
+                        <p class="g-margin-b-0--xs">
+                            Mengutamakan standar keselamatan kerja serta kualitas
+                            hasil sesuai regulasi dan kebutuhan klien.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
     </div>
-
-</div>
-<!--========== END COMPANY OVERVIEW ==========-->
+    <!--========== END COMPANY OVERVIEW ==========-->
 
 
     <!-- Parallax -->
-    <div class="js__parallax-window" style="background: url(img/1920x1080/03.jpg) 50% 0 no-repeat fixed;">
+    <div class="js__parallax-window"
+        style="background: url({{ asset('img/1920x1080/03.jpg') }}) 50% 0 no-repeat fixed;">
         <div class="container g-text-center--xs g-padding-y-80--xs g-padding-y-125--sm">
-            <div class="g-margin-b-80--xs">
-                <h2 class="g-font-size-40--xs g-font-size-50--sm g-font-size-60--md g-color--white">The Fastest Way To
-                    Develop</h2>
+            <div class="g-margin-b-40--xs">
+                <h2 class="g-font-size-40--xs g-font-size-50--sm g-font-size-60--md g-color--white">
+                    Visi & Misi Perusahaan
+                </h2>
             </div>
-            <a href="http://keenthemes.com/"
-                class="text-uppercase s-btn s-btn--md s-btn--white-brd g-radius--50">Learn More</a>
+            <p class="g-font-size-18--xs g-color--white g-margin-b-40--xs">
+                Arah dan komitmen kami dalam memberikan layanan terbaik secara profesional
+            </p>
+            <a href="#visi-misi" class="text-uppercase s-btn s-btn--md s-btn--white-brd g-radius--50">
+                Lihat Selengkapnya
+            </a>
         </div>
     </div>
     <!-- End Parallax -->
 
-  <!--========== VISI & MISI ==========-->
-<div class="g-promo-section">
-    <div class="container g-padding-y-80--xs g-padding-y-125--sm">
-        <div class="row">
 
-            <!-- Left Title -->
-            <div class="col-md-4 g-margin-t-15--xs g-margin-b-60--xs g-margin-b-0--lg">
-                <p
-                    class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-25--xs">
-                    Visi & Misi
-                </p>
-                <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".1s">
-                    <h2 class="g-font-size-40--xs g-font-size-50--sm g-font-size-60--md">Arah</h2>
+    <!--========== VISI & MISI ==========-->
+    <div class="g-promo-section"id="visi-misi">
+        <div class="container g-padding-y-80--xs g-padding-y-125--sm">
+            <div class="row">
+
+                <!-- Left Title -->
+                <div class="col-md-4 g-margin-t-15--xs g-margin-b-60--xs g-margin-b-0--lg">
+                    <p
+                        class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-25--xs">
+                        Visi & Misi
+                    </p>
+                    <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".1s">
+                        <h2 class="g-font-size-40--xs g-font-size-50--sm g-font-size-60--md">Arah</h2>
+                    </div>
+                    <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".3s">
+                        <h2 class="g-font-size-40--xs g-font-size-50--sm g-font-size-60--md">Perusahaan</h2>
+                    </div>
                 </div>
-                <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".3s">
-                    <h2 class="g-font-size-40--xs g-font-size-50--sm g-font-size-60--md">Perusahaan</h2>
+
+                <!-- Vision & Mission Content -->
+                <div class="col-md-4 col-md-offset-1">
+
+                    <!-- Vision -->
+                    <h3 class="g-font-size-22--xs g-margin-b-15--xs">Visi</h3>
+                    <p class="g-font-size-18--xs g-margin-b-30--xs">
+                        Menjadi perusahaan yang unggul dalam memberikan layanan terkemuka terdepan.
+                    </p>
+
+                    <!-- Mission -->
+                    <h3 class="g-font-size-22--xs g-margin-b-15--xs">Misi</h3>
+                    <ul class="g-font-size-18--xs g-color--text">
+                        <li>Memberikan pelayanan yang terbaik secara profesional.</li>
+                        <li>Meningkatkan sumber daya manusia berkompeten.</li>
+                        <li>Meningkatkan keselamatan, kesehatan kerja dan lindungan lingkungan kerja setiap karyawan.
+                        </li>
+                        <li>Memberikan layanan terbaik dan keuntungan bagi klien dan mitra kerja.</li>
+                    </ul>
+
+
                 </div>
-            </div>
-
-            <!-- Vision & Mission Content -->
-            <div class="col-md-4 col-md-offset-1">
-
-               <!-- Vision -->
-<h3 class="g-font-size-22--xs g-margin-b-15--xs">Visi</h3>
-<p class="g-font-size-18--xs g-margin-b-30--xs">
-    Menjadi perusahaan yang unggul dalam memberikan layanan terkemuka terdepan.
-</p>
-
-<!-- Mission -->
-<h3 class="g-font-size-22--xs g-margin-b-15--xs">Misi</h3>
-<ul class="g-font-size-18--xs g-color--text">
-    <li>Memberikan pelayanan yang terbaik secara profesional.</li>
-    <li>Meningkatkan sumber daya manusia berkompeten.</li>
-    <li>Meningkatkan keselamatan, kesehatan kerja dan lindungan lingkungan kerja setiap karyawan.</li>
-    <li>Memberikan layanan terbaik dan keuntungan bagi klien dan mitra kerja.</li>
-</ul>
-
-
             </div>
         </div>
+
+        <!-- Right Image -->
+        <div
+            class="col-sm-3 g-promo-section__img-right--lg g-bg-position--center g-height-100-percent--md js__fullwidth-img">
+            <img class="img-responsive" src="img/970x970/03.jpg" alt="Visi dan Misi Perusahaan">
+        </div>
     </div>
-
-    <!-- Right Image -->
-    <div
-        class="col-sm-3 g-promo-section__img-right--lg g-bg-position--center g-height-100-percent--md js__fullwidth-img">
-        <img class="img-responsive" src="img/970x970/03.jpg" alt="Visi dan Misi Perusahaan">
-    </div>
-</div>
-<!--========== END VISI & MISI ==========-->
+    <!--========== END VISI & MISI ==========-->
 
 
-    <!-- Subscribe -->
-    <div class="js__parallax-window" style="background: url(img/1920x1080/07.jpg) 50% 0 no-repeat fixed;">
+    <!-- Contact Call To Action -->
+    <div class="js__parallax-window"
+        style="background: url({{ asset('img/1920x1080/07.jpg') }}) 50% 0 no-repeat fixed;">
         <div class="g-container--sm g-text-center--xs g-padding-y-80--xs g-padding-y-125--sm">
-            <div class="g-margin-b-80--xs">
+            <div class="g-margin-b-50--xs">
                 <p
                     class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--white-opacity g-letter-spacing--2 g-margin-b-25--xs">
-                    Subscribe</p>
-                <h2 class="g-font-size-32--xs g-font-size-36--md g-color--white">Join Over 1000+ People</h2>
+                    Hubungi Kami
+                </p>
+                <h2 class="g-font-size-32--xs g-font-size-36--md g-color--white">
+                    Siap Menjadi Mitra Proyek Anda
+                </h2>
+                <p class="g-font-size-18--xs g-color--white g-margin-t-20--xs">
+                    Konsultasikan kebutuhan konstruksi dan instalasi elektrikal Anda bersama kami
+                </p>
             </div>
-            <div class="row">
-                <div class="col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1">
-                    <form class="input-group">
-                        <input type="email" class="form-control s-form-v1__input g-radius--left-50" name="email"
-                            placeholder="Enter your email">
-                        <span class="input-group-btn">
-                            <button type="submit"
-                                class="s-btn s-btn-icon--md s-btn-icon--white-brd s-btn--white-brd g-radius--right-50"><i
-                                    class="ti-arrow-right"></i></button>
-                        </span>
-                    </form>
-                </div>
-            </div>
+
+            <a href="#contact" class="text-uppercase s-btn s-btn--md s-btn--white-brd g-radius--50">
+                Hubungi Sekarang
+            </a>
         </div>
     </div>
-    <!-- End Subscribe -->
+    <!-- End Contact Call To Action -->
 
-    <!-- Portfolio Filter -->
-    <div class="container g-padding-y-80--xs">
+
+    <!--========== GALERI PROYEK ==========-->
+    <div class="container g-padding-y-80--xs" id="projects">
+
+        <!-- Heading -->
         <div class="g-text-center--xs g-margin-b-40--xs">
-            <h2 class="g-font-size-32--xs g-font-size-36--md">Projects</h2>
+            <p
+                class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-15--xs">
+                Portofolio
+            </p>
+            <h2 class="g-font-size-32--xs g-font-size-36--md">
+                Galeri Proyek
+            </h2>
+            <p class="g-font-size-18--xs g-color--text g-margin-t-15--xs">
+                Dokumentasi proyek dan pekerjaan yang telah diselesaikan oleh PT. Seram Indo Pratama
+            </p>
         </div>
+
+        <!-- Filter -->
         <div class="s-portfolio">
             <div id="js__filters-portfolio-gallery"
                 class="s-portfolio__filter-v1 cbp-l-filters-text cbp-l-filters-center">
-                <div data-filter="*" class="s-portfolio__filter-v1-item cbp-filter-item cbp-filter-item-active">Show
-                    All</div>
-                <div data-filter=".graphic" class="s-portfolio__filter-v1-item cbp-filter-item">Graphic</div>
-                <div data-filter=".logos" class="s-portfolio__filter-v1-item cbp-filter-item">Logo</div>
-                <div data-filter=".motion" class="s-portfolio__filter-v1-item cbp-filter-item">Motion</div>
+
+                <div data-filter="*" class="s-portfolio__filter-v1-item cbp-filter-item cbp-filter-item-active">
+                    Semua Proyek
+                </div>
+                <div data-filter=".elektrikal" class="s-portfolio__filter-v1-item cbp-filter-item">
+                    Instalasi Elektrikal
+                </div>
+                <div data-filter=".konstruksi" class="s-portfolio__filter-v1-item cbp-filter-item">
+                    Konstruksi
+                </div>
+                <div data-filter=".maintenance" class="s-portfolio__filter-v1-item cbp-filter-item">
+                    Maintenance
+                </div>
+
             </div>
         </div>
     </div>
-    <!-- End Portfolio Filter -->
+    <!--========== END FILTER ==========-->
 
-    <!-- Portfolio Gallery -->
+    <!--========== PORTFOLIO GALLERY ==========-->
     <div class="container g-margin-b-100--xs">
         <div id="js__grid-portfolio-gallery" class="cbp">
-            <!-- Item -->
-            <div class="s-portfolio__item cbp-item logos motion">
+
+            <!-- Item 1 -->
+            <div class="s-portfolio__item cbp-item elektrikal">
                 <div class="s-portfolio__img-effect">
-                    <img src="img/970x647/05.jpg" alt="Portfolio Image">
+                    <img src="img/970x647/05.jpg" alt="Instalasi Elektrikal">
                 </div>
                 <div class="s-portfolio__caption-hover--cc">
                     <div class="g-margin-b-25--xs">
-                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
-                        <p class="g-color--white-opacity">by KeenThemes Inc.</p>
+                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">
+                            Instalasi Panel Listrik
+                        </h4>
+                        <p class="g-color--white-opacity">
+                            Proyek Gedung Perkantoran
+                        </p>
                     </div>
                     <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                         <li>
                             <a href="img/970x647/05.jpg"
                                 class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle"
-                                data-title="Portfolio Item <br/> by KeenThemes Inc.">
+                                data-title="Instalasi Panel Listrik <br/> PT. Seram Indo Pratama">
                                 <i class="ti-fullscreen"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes"
-                                class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
-                                <i class="ti-link"></i>
                             </a>
                         </li>
                     </ul>
                 </div>
             </div>
-            <!-- Item -->
-            <div class="s-portfolio__item cbp-item graphic">
+
+            <!-- Item 2 -->
+            <div class="s-portfolio__item cbp-item konstruksi">
                 <div class="s-portfolio__img-effect">
-                    <img src="img/970x647/06.jpg" alt="Portfolio Image">
+                    <img src="img/970x647/06.jpg" alt="Konstruksi">
                 </div>
                 <div class="s-portfolio__caption-hover--cc">
                     <div class="g-margin-b-25--xs">
-                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
-                        <p class="g-color--white-opacity">by KeenThemes Inc.</p>
+                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">
+                            Pekerjaan Konstruksi
+                        </h4>
+                        <p class="g-color--white-opacity">
+                            Pembangunan Fasilitas Umum
+                        </p>
                     </div>
                     <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                         <li>
                             <a href="img/970x647/06.jpg"
                                 class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle"
-                                data-title="Portfolio Item <br/> by KeenThemes Inc.">
+                                data-title="Pekerjaan Konstruksi <br/> PT. Seram Indo Pratama">
                                 <i class="ti-fullscreen"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes"
-                                class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
-                                <i class="ti-link"></i>
                             </a>
                         </li>
                     </ul>
                 </div>
             </div>
-            <!-- Item -->
-            <div class="s-portfolio__item cbp-item logos">
+
+            <!-- Item 3 -->
+            <div class="s-portfolio__item cbp-item maintenance">
                 <div class="s-portfolio__img-effect">
-                    <img src="img/970x647/07.jpg" alt="Portfolio Image">
+                    <img src="img/970x647/07.jpg" alt="Maintenance">
                 </div>
                 <div class="s-portfolio__caption-hover--cc">
                     <div class="g-margin-b-25--xs">
-                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
-                        <p class="g-color--white-opacity">by KeenThemes Inc.</p>
+                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">
+                            Maintenance Sistem Listrik
+                        </h4>
+                        <p class="g-color--white-opacity">
+                            Perawatan Berkala
+                        </p>
                     </div>
                     <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                         <li>
                             <a href="img/970x647/07.jpg"
                                 class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle"
-                                data-title="Portfolio Item <br/> by KeenThemes Inc.">
+                                data-title="Maintenance Sistem Listrik <br/> PT. Seram Indo Pratama">
                                 <i class="ti-fullscreen"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes"
-                                class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
-                                <i class="ti-link"></i>
                             </a>
                         </li>
                     </ul>
                 </div>
             </div>
-            <!-- Item -->
-            <div class="s-portfolio__item cbp-item motion graphic">
+
+            <!-- Item 4 -->
+            <div class="s-portfolio__item cbp-item elektrikal maintenance">
                 <div class="s-portfolio__img-effect">
-                    <img src="img/970x647/08.jpg" alt="Portfolio Image">
+                    <img src="img/970x647/08.jpg" alt="Instalasi dan Maintenance">
                 </div>
                 <div class="s-portfolio__caption-hover--cc">
                     <div class="g-margin-b-25--xs">
-                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
-                        <p class="g-color--white-opacity">by KeenThemes Inc.</p>
+                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">
+                            Instalasi & Perawatan
+                        </h4>
+                        <p class="g-color--white-opacity">
+                            Sistem Kelistrikan Bangunan
+                        </p>
                     </div>
                     <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                         <li>
                             <a href="img/970x647/08.jpg"
                                 class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle"
-                                data-title="Portfolio Item <br/> by KeenThemes Inc.">
+                                data-title="Instalasi & Perawatan <br/> PT. Seram Indo Pratama">
                                 <i class="ti-fullscreen"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes"
-                                class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
-                                <i class="ti-link"></i>
                             </a>
                         </li>
                     </ul>
                 </div>
             </div>
-            <!-- Item -->
-            <div class="s-portfolio__item cbp-item logos graphic">
-                <div class="s-portfolio__img-effect">
-                    <img src="img/970x647/09.jpg" alt="Portfolio Image">
-                </div>
-                <div class="s-portfolio__caption-hover--cc">
-                    <div class="g-margin-b-25--xs">
-                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
-                        <p class="g-color--white-opacity">by KeenThemes Inc.</p>
-                    </div>
-                    <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
-                        <li>
-                            <a href="img/970x647/09.jpg"
-                                class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle"
-                                data-title="Portfolio Item <br/> by KeenThemes Inc.">
-                                <i class="ti-fullscreen"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes"
-                                class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
-                                <i class="ti-link"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <!-- Item -->
-            <div class="s-portfolio__item cbp-item motion graphic">
-                <div class="s-portfolio__img-effect">
-                    <img src="img/970x647/04.jpg" alt="Portfolio Image">
-                </div>
-                <div class="s-portfolio__caption-hover--cc">
-                    <div class="g-margin-b-25--xs">
-                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
-                        <p class="g-color--white-opacity">by KeenThemes Inc.</p>
-                    </div>
-                    <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
-                        <li>
-                            <a href="img/970x647/04.jpg"
-                                class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle"
-                                data-title="Portfolio Item <br/> by KeenThemes Inc.">
-                                <i class="ti-fullscreen"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes"
-                                class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
-                                <i class="ti-link"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <!-- End Item -->
+
         </div>
-        <!-- End Portfolio Gallery -->
     </div>
-    <!-- End Portfolio -->
+    <!--========== END GALERI PROYEK ==========-->
+
 
     <!-- Testimonials -->
     <div class="js__parallax-window" style="background: url(img/1920x1080/04.jpg) 50% 0 no-repeat fixed;">
@@ -699,152 +670,218 @@
     </div>
     <!-- End Clients -->
 
-    <!-- News -->
-    <div class="container g-padding-y-80--xs g-padding-y-125--sm">
+    <!--========== KEGIATAN & UPDATE PROYEK ==========-->
+    <div class="container g-padding-y-80--xs g-padding-y-125--sm" id="activity">
+
+        <!-- Heading -->
         <div class="g-text-center--xs g-margin-b-80--xs">
             <p
                 class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-25--xs">
-                Blog</p>
-            <h2 class="g-font-size-32--xs g-font-size-36--md">Latest News</h2>
+                Informasi
+            </p>
+            <h2 class="g-font-size-32--xs g-font-size-36--md">
+                Kegiatan & Update Proyek
+            </h2>
+            <p class="g-font-size-18--xs g-color--text g-margin-t-15--xs">
+                Dokumentasi kegiatan dan progres pekerjaan PT. Seram Indo Pratama
+            </p>
         </div>
+
         <div class="row">
+
+            <!-- Item 1 -->
             <div class="col-sm-4 g-margin-b-30--xs g-margin-b-0--md">
-                <!-- News -->
                 <article>
-                    <img class="img-responsive" src="img/970x970/01.jpg" alt="Image">
+                    <img class="img-responsive" src="img/970x970/01.jpg" alt="Instalasi Elektrikal">
                     <div
                         class="g-bg-color--white g-box-shadow__dark-lightest-v2 g-text-center--xs g-padding-x-40--xs g-padding-y-40--xs">
                         <p
                             class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2">
-                            News</p>
-                        <h3 class="g-font-size-22--xs g-letter-spacing--1"><a href="http://keenthemes.com/">Create
-                                Something Great.</a></h3>
-                        <p>The time has come to bring those ideas and plans to life.</p>
+                            Proyek
+                        </p>
+                        <h3 class="g-font-size-22--xs g-letter-spacing--1">
+                            Instalasi Sistem Kelistrikan
+                        </h3>
+                        <p>
+                            Pelaksanaan pekerjaan instalasi listrik pada bangunan sesuai standar keselamatan dan
+                            kualitas.
+                        </p>
                     </div>
                 </article>
-                <!-- End News -->
             </div>
+
+            <!-- Item 2 -->
             <div class="col-sm-4 g-margin-b-30--xs g-margin-b-0--md">
-                <!-- News -->
                 <article>
-                    <img class="img-responsive" src="img/970x970/02.jpg" alt="Image">
+                    <img class="img-responsive" src="img/970x970/02.jpg" alt="Keselamatan Kerja">
                     <div
                         class="g-bg-color--white g-box-shadow__dark-lightest-v2 g-text-center--xs g-padding-x-40--xs g-padding-y-40--xs">
                         <p
                             class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2">
-                            News</p>
-                        <h3 class="g-font-size-22--xs g-letter-spacing--1"><a href="http://keenthemes.com/">Jacks of
-                                All. Experts in All.</a></h3>
-                        <p>The time has come to bring those ideas and plans to life.</p>
+                            K3
+                        </p>
+                        <h3 class="g-font-size-22--xs g-letter-spacing--1">
+                            Penerapan Keselamatan Kerja
+                        </h3>
+                        <p>
+                            Komitmen perusahaan dalam menerapkan keselamatan, kesehatan kerja, dan perlindungan
+                            lingkungan.
+                        </p>
                     </div>
                 </article>
-                <!-- End News -->
             </div>
+
+            <!-- Item 3 -->
             <div class="col-sm-4">
-                <!-- News -->
                 <article>
-                    <img class="img-responsive" src="img/970x970/03.jpg" alt="Image">
+                    <img class="img-responsive" src="img/970x970/03.jpg" alt="Progress Proyek">
                     <div
                         class="g-bg-color--white g-box-shadow__dark-lightest-v2 g-text-center--xs g-padding-x-40--xs g-padding-y-40--xs">
                         <p
                             class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2">
-                            News</p>
-                        <h3 class="g-font-size-22--xs g-letter-spacing--1"><a href="http://keenthemes.com/">Finding
-                                your Perfect Place.</a></h3>
-                        <p>The time has come to bring those ideas and plans to life.</p>
+                            Progress
+                        </p>
+                        <h3 class="g-font-size-22--xs g-letter-spacing--1">
+                            Monitoring Proyek Lapangan
+                        </h3>
+                        <p>
+                            Evaluasi dan dokumentasi perkembangan pekerjaan proyek secara berkala.
+                        </p>
                     </div>
                 </article>
-                <!-- End News -->
             </div>
+
         </div>
     </div>
-    <!-- End News -->
+    <!--========== END KEGIATAN & UPDATE PROYEK ==========-->
 
-    <!-- Counter -->
+
+    <!--========== STATISTIK PERUSAHAAN ==========-->
     <div class="js__parallax-window" style="background: url(img/1920x1080/06.jpg) 50% 0 no-repeat fixed;">
         <div class="container g-padding-y-80--xs g-padding-y-125--sm">
             <div class="row">
-                <div class="col-md-3 col-xs-6 g-full-width--xs g-margin-b-70--xs g-margin-b-0--lg">
-                    <div class="g-text-center--xs">
-                        <div class="g-margin-b-10--xs">
-                            <figure class="g-display-inline-block--xs g-font-size-70--xs g-color--white js__counter">6
-                            </figure>
-                            <span class="g-font-size-40--xs g-color--white">k</span>
-                        </div>
-                        <div class="center-block g-hor-divider__solid--white g-width-40--xs g-margin-b-25--xs"></div>
-                        <h4 class="g-font-size-18--xs g-color--white">Lines of Code</h4>
-                    </div>
-                </div>
+
+                <!-- Counter 1 -->
                 <div class="col-md-3 col-xs-6 g-full-width--xs g-margin-b-70--xs g-margin-b-0--lg">
                     <div class="g-text-center--xs">
                         <figure
                             class="g-display-block--xs g-font-size-70--xs g-color--white g-margin-b-10--xs js__counter">
-                            5</figure>
+                            25
+                        </figure>
                         <div class="center-block g-hor-divider__solid--white g-width-40--xs g-margin-b-25--xs"></div>
-                        <h4 class="g-font-size-18--xs g-color--white">Award Winners</h4>
+                        <h4 class="g-font-size-18--xs g-color--white">
+                            Proyek Selesai
+                        </h4>
                     </div>
                 </div>
+
+                <!-- Counter 2 -->
+                <div class="col-md-3 col-xs-6 g-full-width--xs g-margin-b-70--xs g-margin-b-0--lg">
+                    <div class="g-text-center--xs">
+                        <figure
+                            class="g-display-block--xs g-font-size-70--xs g-color--white g-margin-b-10--xs js__counter">
+                            20
+                        </figure>
+                        <div class="center-block g-hor-divider__solid--white g-width-40--xs g-margin-b-25--xs"></div>
+                        <h4 class="g-font-size-18--xs g-color--white">
+                            Klien
+                        </h4>
+                    </div>
+                </div>
+
+                <!-- Counter 3 -->
                 <div class="col-md-3 col-xs-6 g-full-width--xs g-margin-b-70--xs g-margin-b-0--sm">
                     <div class="g-text-center--xs">
                         <figure
                             class="g-display-block--xs g-font-size-70--xs g-color--white g-margin-b-10--xs js__counter">
-                            15</figure>
+                            15
+                        </figure>
                         <div class="center-block g-hor-divider__solid--white g-width-40--xs g-margin-b-25--xs"></div>
-                        <h4 class="g-font-size-18--xs g-color--white">Multiple Pages</h4>
+                        <h4 class="g-font-size-18--xs g-color--white">
+                            Tenaga Profesional
+                        </h4>
                     </div>
                 </div>
+
+                <!-- Counter 4 -->
                 <div class="col-md-3 col-xs-6 g-full-width--xs">
                     <div class="g-text-center--xs">
-                        <div class="g-margin-b-10--xs">
-                            <figure class="g-display-inline-block--xs g-font-size-70--xs g-color--white js__counter">2
-                            </figure>
-                            <span class="g-font-size-40--xs g-color--white">x</span>
-                        </div>
+                        <figure
+                            class="g-display-block--xs g-font-size-70--xs g-color--white g-margin-b-10--xs js__counter">
+                            5
+                        </figure>
                         <div class="center-block g-hor-divider__solid--white g-width-40--xs g-margin-b-25--xs"></div>
-                        <h4 class="g-font-size-18--xs g-color--white">Faster Support</h4>
+                        <h4 class="g-font-size-18--xs g-color--white">
+                            Tahun Pengalaman
+                        </h4>
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
-    <!-- End Counter -->
+    <!--========== END STATISTIK PERUSAHAAN ==========-->
 
-    <!-- Feedback Form -->
-    <div class="g-bg-color--sky-light">
+
+    <!--========== CONTACT / HUBUNGI KAMI ==========-->
+    <div class="g-bg-color--sky-light" id="contact">
         <div class="container g-padding-y-80--xs g-padding-y-125--sm">
+
+            <!-- Heading -->
             <div class="g-text-center--xs g-margin-b-80--xs">
                 <p
                     class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-25--xs">
-                    Feedback</p>
-                <h2 class="g-font-size-32--xs g-font-size-36--md">Send us a note</h2>
+                    Hubungi Kami
+                </p>
+                <h2 class="g-font-size-32--xs g-font-size-36--md">
+                    Konsultasi & Informasi Layanan
+                </h2>
+                <p class="g-font-size-18--xs g-color--text g-margin-t-20--xs">
+                    Silakan hubungi kami untuk kebutuhan konstruksi dan instalasi elektrikal Anda.
+                </p>
             </div>
+
+            <!-- Contact Form -->
             <form>
                 <div class="row g-margin-b-40--xs">
+
+                    <!-- Left -->
                     <div class="col-sm-6 g-margin-b-20--xs g-margin-b-0--md">
                         <div class="g-margin-b-20--xs">
                             <input type="text" class="form-control s-form-v2__input g-radius--50"
-                                placeholder="* Name">
+                                placeholder="Nama Lengkap *" required>
                         </div>
+
                         <div class="g-margin-b-20--xs">
                             <input type="email" class="form-control s-form-v2__input g-radius--50"
-                                placeholder="* Email">
+                                placeholder="Email *" required>
                         </div>
+
                         <input type="text" class="form-control s-form-v2__input g-radius--50"
-                            placeholder="* Phone">
+                            placeholder="No. Telepon *" required>
                     </div>
+
+                    <!-- Right -->
                     <div class="col-sm-6">
                         <textarea class="form-control s-form-v2__input g-radius--10 g-padding-y-20--xs" rows="8"
-                            placeholder="* Your message"></textarea>
+                            placeholder="Pesan / Kebutuhan Anda *" required></textarea>
                     </div>
+
                 </div>
+
+                <!-- Button -->
                 <div class="g-text-center--xs">
                     <button type="submit"
-                        class="text-uppercase s-btn s-btn--md s-btn--primary-bg g-radius--50 g-padding-x-80--xs">Submit</button>
+                        class="text-uppercase s-btn s-btn--md s-btn--primary-bg g-radius--50 g-padding-x-80--xs">
+                        Hubungi Sekarang
+                    </button>
                 </div>
             </form>
+
         </div>
     </div>
-    <!-- End Feedback Form -->
+    <!--========== END CONTACT ==========-->
+
 
     <!-- Google Map -->
     <section class="s-google-map">
@@ -944,44 +981,61 @@
     <!--========== END FOOTER ==========-->
 
     <!-- Back To Top -->
-<a href="javascript:void(0);" class="s-back-to-top js__back-to-top"></a>
+    <a href="javascript:void(0);" class="s-back-to-top js__back-to-top"></a>
 
-<!--========== JAVASCRIPTS (Load javascripts at bottom, this will reduce page load time) ==========-->
+    <!--========== JAVASCRIPTS (Load javascripts at bottom, this will reduce page load time) ==========-->
 
-<!-- Vendor -->
-<script src="{{ asset('vendor/jquery.min.js') }}"></script>
-<script src="{{ asset('vendor/jquery.migrate.min.js') }}"></script>
-<script src="{{ asset('vendor/bootstrap/js/bootstrap.min.js') }}"></script>
-<script src="{{ asset('vendor/jquery.smooth-scroll.min.js') }}"></script>
-<script src="{{ asset('vendor/jquery.back-to-top.min.js') }}"></script>
-<script src="{{ asset('vendor/scrollbar/jquery.scrollbar.min.js') }}"></script>
-<script src="{{ asset('vendor/magnific-popup/jquery.magnific-popup.min.js') }}"></script>
-<script src="{{ asset('vendor/swiper/swiper.jquery.min.js') }}"></script>
-<script src="{{ asset('vendor/waypoint.min.js') }}"></script>
-<script src="{{ asset('vendor/counterup.min.js') }}"></script>
-<script src="{{ asset('vendor/cubeportfolio/js/jquery.cubeportfolio.min.js') }}"></script>
-<script src="{{ asset('vendor/jquery.parallax.min.js') }}"></script>
+    <!-- Vendor -->
+    <script src="{{ asset('vendor/jquery.min.js') }}"></script>
+    <script src="{{ asset('vendor/jquery.migrate.min.js') }}"></script>
+    <script src="{{ asset('vendor/bootstrap/js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('vendor/jquery.smooth-scroll.min.js') }}"></script>
+    <script src="{{ asset('vendor/jquery.back-to-top.min.js') }}"></script>
+    <script src="{{ asset('vendor/scrollbar/jquery.scrollbar.min.js') }}"></script>
+    <script src="{{ asset('vendor/magnific-popup/jquery.magnific-popup.min.js') }}"></script>
+    <script src="{{ asset('vendor/swiper/swiper.jquery.min.js') }}"></script>
+    <script src="{{ asset('vendor/waypoint.min.js') }}"></script>
+    <script src="{{ asset('vendor/counterup.min.js') }}"></script>
+    <script src="{{ asset('vendor/cubeportfolio/js/jquery.cubeportfolio.min.js') }}"></script>
+    <script src="{{ asset('vendor/jquery.parallax.min.js') }}"></script>
 
-<!-- Google Maps (opsional, bisa dihapus kalau tidak dipakai) -->
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBsXUGTFS09pLVdsYEE9YrO2y4IAncAO2U"></script>
+    <!-- Google Maps (opsional, bisa dihapus kalau tidak dipakai) -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBsXUGTFS09pLVdsYEE9YrO2y4IAncAO2U"></script>
 
-<script src="{{ asset('vendor/jquery.wow.min.js') }}"></script>
+    <script src="{{ asset('vendor/jquery.wow.min.js') }}"></script>
 
-<!-- General Components and Settings -->
-<script src="{{ asset('js/global.min.js') }}"></script>
-<script src="{{ asset('js/components/header-sticky.min.js') }}"></script>
-<script src="{{ asset('js/components/scrollbar.min.js') }}"></script>
-<script src="{{ asset('js/components/magnific-popup.min.js') }}"></script>
-<script src="{{ asset('js/components/swiper.min.js') }}"></script>
-<script src="{{ asset('js/components/counter.min.js') }}"></script>
-<script src="{{ asset('js/components/portfolio-3-col.min.js') }}"></script>
-<script src="{{ asset('js/components/parallax.min.js') }}"></script>
-<script src="{{ asset('js/components/google-map.min.js') }}"></script>
-<script src="{{ asset('js/components/wow.min.js') }}"></script>
+    <!-- General Components and Settings -->
+    <script src="{{ asset('js/global.min.js') }}"></script>
+    <script src="{{ asset('js/components/header-sticky.min.js') }}"></script>
+    <script src="{{ asset('js/components/scrollbar.min.js') }}"></script>
+    <script src="{{ asset('js/components/magnific-popup.min.js') }}"></script>
+    <script src="{{ asset('js/components/swiper.min.js') }}"></script>
+    <script src="{{ asset('js/components/counter.min.js') }}"></script>
+    <script src="{{ asset('js/components/portfolio-3-col.min.js') }}"></script>
+    <script src="{{ asset('js/components/parallax.min.js') }}"></script>
+    <script src="{{ asset('js/components/google-map.min.js') }}"></script>
+    <script src="{{ asset('js/components/wow.min.js') }}"></script>
 
-<!--========== END JAVASCRIPTS ==========-->
+    <script type="text/javascript">
+        $(document).ready(function() {
 
+            // Smooth scroll untuk semua link dengan #
+            $('a[href^="#"]').on('click', function(e) {
 
+                var target = $(this.getAttribute('href'));
+
+                if (target.length) {
+                    e.preventDefault();
+
+                    $('html, body').stop().animate({
+                        scrollTop: target.offset().top - 70
+                    }, 800, 'swing');
+                }
+            });
+
+        });
+    </script>
+    <!--========== END JAVASCRIPTS ==========-->
 </body>
 <!-- End Body -->
 
